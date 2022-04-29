@@ -10,11 +10,21 @@
     background: linear-gradient(rgba(0,0,0, .01), rgba(0,0,0, 0.3)), url('./images/Background.jpg');
     background-size: cover;
     background-position: center;
-    display: flex;
+    display:flex;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+
+.title-card{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
 
 .card{
     background-color: whitesmoke;
@@ -35,6 +45,7 @@
     height: 580px;
     font-family: 'Delius Swash Caps', cursive;;
 }
+
 
 .button{
     position: relative;
