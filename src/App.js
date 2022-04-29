@@ -24,9 +24,15 @@ class App extends React.Component {
     render() {
         const { advice } = this.state;
         return (
+
             <div className="app">
                 <div className="card">
-                    <h1></h1>
+                    <h1 className="heading">{advice}</h1>
+                    <button className="button" onClick={this.fetchQuote}>
+                        <span>
+                            Generate Quote
+                        </span>
+                    </button>
                 </div>
             </div>
         );
